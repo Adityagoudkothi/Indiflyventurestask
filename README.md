@@ -1,10 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
-
-First, run the development server:
-
-```bash
+#First Clone this using Command prompt terminal or Gitbash into your Local code
+#Install Packages using npm i --legacy-peer-deps
+#Run the application using
 npm run dev
 # or
 yarn dev
@@ -12,25 +11,73 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for googlefonts.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+**Technology Choices and Reasoning**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js (App Router)
+Provides server-side rendering (SSR) and static site generation (SSG) for better performance and SEO.
+App Router enables a clean, scalable folder structure.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+React
+Component-based architecture improves reusability and maintainability.
+Efficient UI updates using Virtual DOM.
 
-## Deploy on Vercel
+Javscript
+Improves code reliability with dynamic type checking.
+This improves developer productivity.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Bootstrap / CSS Modules
+Bootstrap ensures rapid UI development and consistency.
+CSS Modules prevent global CSS conflicts.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+next/font (Geist Font)
+Optimized font loading with zero layout shift.
+Improves Core Web Vitals and performance.
+
+
+
+**Implemented SEO Techniques**
+
+#Server-Side Rendering (SSR)
+#Pages are rendered on the server, improving search engine crawlability.
+
+#Meta Tags
+#Implemented dynamic title and meta description using Next.js metadata API.
+
+#Semantic HTML
+#Used proper HTML tags (header, section, article, footer) to improve accessibility and SEO.
+
+#Optimized Fonts
+#Used next/font to reduce render-blocking resources.
+
+#Fast Page Load
+#Optimized assets and minimal client-side JavaScript improve Core Web Vitals.
+
+
+**Responsiveness Strategy**
+
+Bootstrap Grid System
+Used responsive breakpoints (sm, md, lg, xl) for layout adaptability.
+Ensures proper alignment across mobile, tablet, and desktop devices.
+
+Flexible Units
+Used %, rem, and vw instead of fixed pixel values where applicable.
+
+Mobile-First Approach
+UI is designed starting from smaller screens and enhanced for larger screens.
+
+Media Queries
+Applied for fine-tuning font sizes, spacing, and layout behavior.
+
+Tested On
+
+Mobile devices
+Tablets
+Desktop screens
