@@ -1,0 +1,410 @@
+.topbar {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #024397 0%, #e04a00 100%);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+.topbar .welcome {
+  color: #ffffff;
+    font-weight: 800;
+}
+.bharatbg{
+  background-image: url('/bharatbg.svg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 577px;
+}
+.bharatcontent{
+font-weight: 400;
+font-size: 28px;
+line-height: 122%;
+color: #fff;
+}
+.bharat{
+font-style: italic;
+font-weight: 700;
+font-size: 64px;
+line-height: 122%;
+background: linear-gradient(90deg, #ff671f 0%, #fff 51.92%, #046a38 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.missiondriverfounderstext{
+  font-style: italic;
+font-weight: 600;
+background: linear-gradient(90deg, #e5ba9f 0%, #fff 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.contactustitle{
+font-weight: 600;
+font-size: 58px;
+line-height: 100%;
+text-transform: capitalize;
+background: linear-gradient(135deg, #e04a00 29.81%, #ff915c 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-family: 'Montserrat';
+}
+.contactusdesc{
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+    font-family: 'Montserrat';
+}
+.contactussectionclr{
+  background: #01295c;
+}
+.contactusbg{
+border-radius: 32px;
+padding: 42px;
+background: linear-gradient(46deg, rgba(255, 237, 228, 0.2) 0%, rgba(255, 220, 202, 0.2) 100%);
+    font-family: 'Montserrat';
+}
+.contactbtn{
+  background: linear-gradient(135deg, #e04a00 29.81%, #ff915c 100%);
+  border-radius: 16px;
+  height: 64px;
+  font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: #fff;
+border: none;
+font-family: 'Montserrat';
+}
+.contactbtn:hover{
+  background: linear-gradient(135deg, #e04a00 29.81%, #ff915c 100%);
+  border-radius: 16px;
+  height: 64px;
+  font-weight: 600;
+font-size: 16px;
+text-align: center;
+font-family: 'Montserrat';
+}
+.footerbg{
+  background-image: url('/footerbg.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.footerbrandheading{
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: -0.01em;
+color: #fff;
+}
+.footerbrand1{
+  color: #e04a00;
+}
+.footerbranddesc{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 14px;
+line-height: 193%;
+letter-spacing: -0.01em;
+color: #fff;
+}
+.coonectwithusbg{
+  background-color: #ecebf1;
+  color:#1b2e5b;
+  border-radius: 22px;
+  padding: 10px;
+  font-family: 'Montserrat';
+  width: fit-content;
+  font-weight: 500;
+      display: flex;
+}
+.footertitleheading{
+  font-family: 'Montserrat';
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+color: #fff;
+}
+.footertitleheading1{
+  font-family: 'Montserrat';
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #fff;
+text-decoration: none;
+}
+.lsnone {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+.indisightsbg{
+  background-image: url('/indsightsbg.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+.indisightstitle{
+ font-family: 'Montserrat';
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+color: #000;
+}
+.indisightsdesc{
+  font-family: 'Montserrat';
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #737373;
+}
+.journeybg{
+    background-image: url('/impactonbharat.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+        min-height: 512px;
+}
+.journeytitle{
+ font-family: 'Montserrat';
+font-weight: 400;
+font-size: 20px;
+line-height: 122%;
+text-align: center;
+color: #fff;
+}
+.integratedtext{
+ font-family: 'Montserrat';
+font-weight: 800;
+font-size: 36px;
+line-height: 67%;
+letter-spacing: -0.01em;
+text-align: center;
+color: #353636;
+}
+.sectorbg{
+  background-image: url('/sectorbg.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+.coresmalltext{
+   font-family: 'Montserrat'!important;
+font-weight: 600;
+font-size: 20px;
+line-height: 135%;
+letter-spacing: -0.01em;
+text-align: center;
+color: #353636;
+}
+.herocontenttitle{
+  font-family: 'Montserrat'!important;
+font-weight: 800;
+font-size: 48px;
+line-height: 50%;
+letter-spacing: -0.01em;
+text-align: center;
+color: #fff;
+}
+.ourtitle{
+font-weight: 700;
+font-size: 32px;
+line-height: 134%;
+color: #01295c;
+font-family: 'Montserrat';
+text-align: start;
+}
+.venturestext{
+  font-style: italic;
+font-size: 32px;
+background: linear-gradient(90deg, #006fff 0%, #8ec0ff 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: 'Montserrat';
+text-align: start;
+}
+.venturesdesc{
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: 14px;
+line-height: 122%;
+color: #353636;
+}
+.knowmorebtn{
+background: #024397!important;
+color: #fff!important;
+border-radius: 50px!important;
+font-family: 'Montserrat'!important;
+font-weight: 600;
+font-size: 12px;
+line-height: 142%;
+color: #fff;
+}
+.oursectorsheading{
+font-family: 'Montserrat'!important;
+font-weight: 700;
+font-size: 20px;
+line-height: 122%;
+text-align: center;
+color: #e04a00;
+}
+.oursectorstitle1{
+  color: #0252d4;
+}
+.oursectorstitle2{
+  color: #ff915c;
+}
+.oursectorsdesc{
+font-family: 'Montserrat'!important;
+font-weight: 400;
+font-size: 16px;
+line-height: 122%;
+text-align: center;
+color: #353636;
+}
+.paymentstabbtn{
+background: linear-gradient(90deg, #006fff 0%, #0b44ff 100%);
+border-radius: 16px;
+padding: 8px 32px;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: -0.01em;
+color: #fff;
+}
+.indtitle1{
+  font-family: 'Montserrat'!important;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: -0.01em;
+background: linear-gradient(90deg, #164786 0%, #0252d4 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.indtitle2{
+  font-family: 'Montserrat'!important;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: -0.01em;
+color: #353636;
+}
+.inddesc{
+  font-family: 'Montserrat'!important;
+font-weight: 400;
+font-size: 14px;
+line-height: 122%;
+color: #353636;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+.integratedtext {
+    letter-spacing: -.01em;
+    text-align: center;
+    color: #353636;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 100%;
+}
+.contactusbg {
+    background: linear-gradient(46deg, #ffede433 0%, #ffdcca33 100%);
+    border-radius: 32px;
+    padding: 20px;
+    font-family: Montserrat;
+}
+.contactustitle {
+    text-transform: capitalize;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(135deg, #e04a00 29.81%, #ff915c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.contactusdesc {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+}
+@media screen and (min-width: 481px) and (max-width: 766px) {
+  .integratedtext {
+    letter-spacing: -.01em;
+    text-align: center;
+    color: #353636;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 100%;
+}
+.contactusbg {
+    background: linear-gradient(46deg, #ffede433 0%, #ffdcca33 100%);
+    border-radius: 32px;
+    padding: 20px;
+    font-family: Montserrat;
+}
+.contactustitle {
+    text-transform: capitalize;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(135deg, #e04a00 29.81%, #ff915c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.contactusdesc {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+.herocontenttitle {
+    letter-spacing: -.01em;
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 100%;
+    font-family: Montserrat !important;
+}
+.venturestext {
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+    background: linear-gradient(90deg, #006fff 0%, #8ec0ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: italic;
+}
+.integratedtext {
+    letter-spacing: -.01em;
+    text-align: center;
+    color: #353636;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 105%;
+}
+}

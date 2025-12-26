@@ -1,0 +1,18 @@
+<svg width="1440" height="577" viewBox="0 0 1440 577" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_527)">
+<rect width="1440" height="577" fill="url(#paint0_linear_1_527)"/>
+<path d="M178.445 153.017C178.445 146.655 172.974 141.497 166.223 141.497C159.473 141.497 154 146.655 154 153.017C154 159.38 159.471 164.539 166.223 164.539C172.972 164.539 178.445 159.382 178.445 153.017Z" stroke="#D9D9D9" stroke-opacity="0.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1472 487.637C1472 470.719 1457.23 457 1439 457C1420.77 457 1406 470.714 1406 487.637C1406 504.556 1420.77 518.27 1439 518.27C1457.23 518.27 1472 504.556 1472 487.637Z" stroke="#D9D9D9" stroke-opacity="0.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M192 494.018C192 373.625 94.419 276 -25.9989 276C-146.417 276 -244 373.59 -244 494.018C-244 614.41 -146.417 712 -25.9989 712C94.419 712 192 614.41 192 494.018Z" stroke="#D9D9D9" stroke-opacity="0.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M475 213.5C475 211.014 472.985 209 470.5 209C468.015 209 466 211.014 466 213.5C466 215.985 468.014 218 470.5 218C472.985 218 475 215.986 475 213.5Z" fill="black" fill-opacity="0.2" stroke="#001E46" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_527" x1="0" y1="0" x2="1491.53" y2="368.374" gradientUnits="userSpaceOnUse">
+<stop offset="0.298077" stop-color="#01295C"/>
+<stop offset="1" stop-color="#004FB3"/>
+</linearGradient>
+<clipPath id="clip0_1_527">
+<rect width="1440" height="577" fill="white"/>
+</clipPath>
+</defs>
+</svg>
