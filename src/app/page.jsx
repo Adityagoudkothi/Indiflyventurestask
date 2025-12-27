@@ -32,10 +32,10 @@ import Paymentstab from "./Paymentstab";
 import Financialservicestab from "./Financialservicestab";
 import Ondctab from "./Ondctab";
 import Footer from "./Footer";
-
-
+import Heropage from "./Heropage";
+import { motion } from "framer-motion";
 export default function Home() {
-    const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
@@ -104,7 +104,7 @@ export default function Home() {
   };
   return (
     <div className={styles.page}>
-      <section className={styles.topbar}>
+      <section className={`${styles.topbar} shineline`}>
         <Container className="text-center">
           <span className={styles.text}>
             Get your business up & running with our unparalleled expertise |{" "}
@@ -159,22 +159,17 @@ export default function Home() {
         </Col>
 
         {/* Hero Content */}
-        <div className="text-center hero-content ">
-          <h1 className={styles.herocontenttitle}>
-            Building <span className="orange">Ventures</span>, Building{" "}
-            <span className="orange">Nation</span>.
-          </h1>
-
-          <p>
-            A venture builder empowering mission-driven founders with resources,
-            functional expertise and strategic partnerships to{" "}
-            <em className="orange ft700">dream, build, and grow</em>.
-          </p>
-        </div>
+<Heropage />
 
         {/* Cards */}
       </section>
-      <section className="herocardsbg">
+      <section className="herocardsbg fade-right" aria-label="Indifly Ventures Portfolio Sectors">
+        <motion.div
+  initial={{ opacity: 0, x: -300 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 1.4, ease: "easeInOut" }}
+  viewport={{ once: true }}
+>
         <Col md={12} lg={10} xl={7} className="mx-auto text-center pt-3">
           <Row className="hero-cards ps-sm-3 ps-3 pe-3 pe-sm-3">
             <Col md={6} lg={4} xl={5} className="mb-4 mt-2 venturesbg ">
@@ -240,36 +235,43 @@ export default function Home() {
                   </div>
                 </Col>
                 <Col md={12} lg={12} xl={12} className="">
-                <Row>
-                      <Col xs={6} md={6} lg={6} xl={7} className="mb-2 ps-lg-1 ">
+                  <Row>
+                    <Col xs={6} md={6} lg={6} xl={7} className="mb-2 ps-lg-1 ">
                       <div className="becaomepartnerbtn">
-                    <Image
-                      src={becomepartner}
-                      alt="Indifly Ventures"
-                         style={{ width: "-webkit-fill-available" }}
-                    />
-                    </div>
+                        <Image
+                          src={becomepartner}
+                          alt="Indifly Ventures"
+                          style={{ width: "-webkit-fill-available" }}
+                        />
+                      </div>
                     </Col>
-                        <Col xs={6} md={6} lg={6} xl={5} className="mb-2 ps-1 ">
-                         <div className="getintouchbtn">
-                    <Image
-                      src={getintouch}
-                      alt="Indifly Ventures"
-                         style={{ width: "-webkit-fill-available" }}
-                    />
-                    </div>
+                    <Col xs={6} md={6} lg={6} xl={5} className="mb-2 ps-1 ">
+                      <div className="getintouchbtn">
+                        <Image
+                          src={getintouch}
+                          alt="Indifly Ventures"
+                          style={{ width: "-webkit-fill-available" }}
+                        />
+                      </div>
                     </Col>
-                    </Row>
+                  </Row>
                 </Col>
               </Row>
             </Col>
           </Row>
         </Col>
+        </motion.div>
       </section>
       <section
         className={` ${styles.bharatbg} py-5`}
         aria-label="Indifly Ventures Company mission and vision"
       >
+                <motion.div
+initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 2, ease: "easeInOut" }}
+  viewport={{ once: true }}
+>
         <Container>
           <Row>
             <Col xxl={8} xl={8} lg={12} className={styles.bharatcontent}>
@@ -295,11 +297,18 @@ export default function Home() {
             <Col xxl={4} xl={4} lg={12} />
           </Row>
         </Container>
+        </motion.div>
       </section>
       <section
         className={`${styles.oursectors1bg} py-5 mt-4`}
         aria-labelledby="oursectors-heading"
       >
+                        <motion.div
+initial={{ opacity: 0, x: 200 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 1.5, ease: "easeInOut" }}
+  viewport={{ once: true }}
+>
         <div className="text-center pb-4">
           <Image
             src={oursectorsheading}
@@ -359,6 +368,7 @@ export default function Home() {
             </Col>
           </Tab>
         </Tabs>
+        </motion.div>
       </section>
       <section
         className={`${styles.sectorbg} py-5 mt-5 mb-4`}
@@ -425,6 +435,12 @@ export default function Home() {
         className={`${styles.indisightsbg} py-5`}
         aria-labelledby="indisights-heading"
       >
+                                <motion.div
+initial={{ opacity: 0, x: 200 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 1.5, ease: "easeInOut" }}
+  viewport={{ once: true }}
+>
         <div className="text-center pb-4">
           <Image
             src={indsightstitle}
@@ -481,6 +497,7 @@ export default function Home() {
             ))}
           </Row>
         </Container>
+        </motion.div>
       </section>
       <section
         className={`${styles.contactussectionclr} py-5`}
@@ -599,7 +616,7 @@ export default function Home() {
         </Container>
       </section>
       <footer className={`${styles.footerbg} py-5`} role="contentinfo">
-<Footer />
+        <Footer />
       </footer>
     </div>
   );
