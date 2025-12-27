@@ -81,13 +81,16 @@ border: none;
 font-family: 'Montserrat';
 }
 .contactbtn:hover{
-  background: linear-gradient(135deg, #e04a00 29.81%, #ff915c 100%);
-  border-radius: 16px;
-  height: 64px;
-  font-weight: 600;
-font-size: 16px;
-text-align: center;
-font-family: 'Montserrat';
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(135deg, #b83d00 29.81%, #ff6c25 100%);
+    border: none;
+    border-radius: 16px;
+    height: 64px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
 .footerbg{
   background-image: url('/footerbg.svg');
@@ -212,7 +215,7 @@ color: #353636;
   font-family: 'Montserrat'!important;
 font-weight: 800;
 font-size: 48px;
-line-height: 50%;
+line-height: 115%;
 letter-spacing: -0.01em;
 text-align: center;
 color: #fff;
